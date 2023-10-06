@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Basic Operations Calculator Javascript</h1>
+
+    <div class="calculator">
+        <input type="text" id="field" readonly>
+        <br>
+        <input type="button" value="1" onclick="addToField('1')">
+        <input type="button" value="2" onclick="addToField('2')">
+        <input type="button" value="3" onclick="addToField('3')">
+        <input type="button" value="+" onclick="addToField('+')">
+        <br>
+        <input type="button" value="4" onclick="addToField('4')">
+        <input type="button" value="5" onclick="addToField('5')">
+        <input type="button" value="6" onclick="addToField('6')">
+        <input type="button" value="-" onclick="addToField('-')">
+        <br>
+        <input type="button" value="7" onclick="addToField('7')">
+        <input type="button" value="8" onclick="addToField('8')">
+        <input type="button" value="9" onclick="addToField('9')">
+        <input type="button" value="*" onclick="addToField('*')">
+        <br>
+        <input type="button" value="0" onclick="addToField('0')">
+        <input type="button" value="." onclick="addToField('.')">
+        <input type="button" value="/" onclick="addToField('/')">
+        <input type="button" value="=" onclick="calculate()">
+        <br>
+        <input type="button" value="C" onclick="eraseField()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
